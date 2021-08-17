@@ -1,0 +1,738 @@
+    1  ls -l
+    2  sudo root
+    3  ls 
+    4  sudo get update
+    5  ls -l/
+    6  ls -l
+    7  ls -l /
+    8  sudo apt update
+    9  sudo apt install openssh-server
+   10  ifconfig
+   11  sudo apt install net-tools
+   12  ifconfig
+   13  ls -l
+   14  ls -la
+   15  /home/davit
+   16  man
+   17  man ls
+   18  whoami
+   19  ls -la
+   20  man
+   21  man man
+   22  man ls
+   23  man ping
+   24  ls
+   25  ls -a
+   26  ls --a
+   27  ls -a
+   28  man ls
+   29  ls -l
+   30  la -l -a
+   31  la -la
+   32  pwd
+   33  cd..
+   34  cd ..
+   35  pwd
+   36  cd home
+   37  pwd
+   38  cd /home/davit
+   39  pwd
+   40  mkdir test
+   41  ls -l
+   42  mkdir test2
+   43  mv test test2
+   44  ls
+   45  cd test2/
+   46  ls
+   47  cd ..
+   48  ls
+   49  pwd
+   50  ls -la
+   51  pwd
+   52  cd test2/test/
+   53  cd -
+   54  ls
+   55  rm test
+   56  rm -r 
+   57  ls -l
+   58  whereis test2
+   59  pwd
+   60  ls -l
+   61  ls -lh
+   62  ls -lah
+   63  man cp
+   64  cd test2/
+   65  pwd
+   66  cd test2/
+   67  cd ..
+   68  cd test2/
+   69  ls
+   70  ls -la
+   71  cd ..
+   72  pwd
+   73  sudo su
+   74  history
+   75  ls -l
+   76  touch file
+   77  ls -ls
+   78  mdir test-dir/test2
+   79  cat test
+   80  cat /var
+   81  cat /var/lo
+   82  clear
+   83  history 
+   84  cleat
+   85  clear
+   86  echo Hello word
+   87  echo Hello word > hello_word
+   88  cat hello_word 
+   89  echo hello_word >> hello_armenia
+   90  cat hello_
+   91  cat hello_word 
+   92  echo $HELL
+   93  HI=BAREV
+   94  unset $HI
+   95  echo $HI
+   96  echo ^C
+   97  hi=""
+   98  eco $HI
+   99  echo $HI
+  100  clear
+  101  less
+  102  less /var/log
+  103  uname
+  104  uname -a
+  105  cat /etc/os-reLEASE
+  106  cat /etc/os-release 
+  107  nano cat /etc/os-release 
+  108  cat /etc/os-release 
+  109  whoami
+  110  tar -vcf test-dir .gz test-dir
+  111  ls
+  112  tar -vcf archive.test-dir .gz test-dir
+  113  ls
+  114  cat hello_word | grep Armeia^C
+  115  cat hello_word 
+  116  cat hello_word | grep Armenia^C
+  117  cat hello_word 
+  118  clear
+  119  tail
+  120  tail test
+  121  tail /var/log
+  122  tail /var/log/clear
+  123  clear
+  124  diff 
+  125  echo a >> file1
+  126  echo b >> file1
+  127  echo d >> file1
+  128  echo a >> file2
+  129  echo b >> file2
+  130  echo c >> file2
+  131  diff file1 file2
+  132  echo dog > animals
+  133  echo cat > animals
+  134  echo horse > animals
+  135  echo ^C animals
+  136  echo horse >> animals
+  137  cat animals
+  138  ssh
+  139  ps
+  140  ps -cpu
+  141  ps -a
+  142  ps
+  143  ps -3
+  144  ps -i
+  145  ps -I
+  146  ps -a
+  147  ps -E
+  148  ps -a
+  149  clear
+  150  ps&
+  151  ps -a
+  152  chmod 777 test
+  153  sudo su
+  154  tracroute
+  155  traceroute
+  156  sudo apt install trcaeroute
+  157  traceroute google.com
+  158  sudo apt-get install traceroute
+  159  traceroute google.com
+  160  sudo apt-get update 
+  161  traceroute google.com
+  162  traceroute wimedia.am
+  163  traceroute 8.8.8.8
+  164  traceroute www.goole.com
+  165  traceroute mail.ru
+  166  traceroute 192.168.77.1
+  167  wget
+  168  wget www.google.com
+  169  ls
+  170  cat index.html ^C
+  171  clear
+  172  pwd
+  173  ufw
+  174  cal
+  175  date
+  176  tome
+  177  time
+  178  time sleep 
+  179  time sleep 1
+  180  whereis ls
+  181  whatis
+  182  whatis ls
+  183  hope
+  184  top
+  185  htop
+  186  sudo apt install htop
+  187  usermod
+  188  usermod ^C
+  189  ls -lah
+  190  alis lm='ls-lah'
+  191  clear
+  192  nano run.sh
+  193  ./run.sh
+  194  chmod +x run.sh
+  195  ./run.sh
+  196  run
+  197  cat .profile
+  198  nano .profile
+  199  ls
+  200  ls -la
+  201  clear
+  202  reset
+  203  history 
+  204  clear
+  205  w -a
+  206  w -i
+  207  exit
+  208  history
+  209  clear
+  210  whereis ufw
+  211  sudo apt install apache2
+  212  sudo systemctl start apache2.service
+  213  sudo systemctl stop apache2.service
+  214  sudo systemctl restart apache2.service
+  215  sudo systemctl reload apache2.service
+  216  sudo systemctl status apache2.service
+  217  clear
+  218  sudo systemctl status apache2.service
+  219  sudo ufw status
+  220  sudo ufw start
+  221  sudo ufw enable 
+  222  sudo ufw status
+  223  whereis apache log
+  224  cd /bin
+  225  ls -a
+  226  ls -l
+  227  cd ..
+  228  cd /var/log
+  229  ls
+  230  ls -l
+  231  cd ..
+  232  sudo ufw app list
+  233  sudo ufw allow 'Apache'
+  234  sudo ufw status
+  235  sudo systemctl status apache2
+  236  cd /var/log/apache2/
+  237  ls
+  238  nano error.log 
+  239  nano access.log 
+  240  nano other_vhosts_access.log 
+  241  cd .
+  242  cd ..
+  243  sudo systemctl status apache2
+  244  cd /var/log/apache2/
+  245  nano access.log 
+  246  exit
+  247  sudo nano /etc/apache2/apache2.conf 
+  248  cd /var/log/apache2
+  249  nano error.log 
+  250  nano access.log 
+  251  cd ..
+  252  man grep
+  253  cd /var/log/apache2
+  254  nano access.log 
+  255  grep | access.log
+  256  cd..
+  257  cdd
+  258  cd ..
+  259  clear
+  260  cd /var/log/apache2
+  261  nano access.log 
+  262  cd ..
+  263  less /var/log/apache2/access.log 
+  264  tail /var/log/apache2/access.log 
+  265  cd /var/log/apache2/
+  266  nano access.log 
+  267  cd ..
+  268  cd
+  269  cd /var/log/apache2/
+  270  touch apache_logs
+  271  sudo touch apache_logs
+  272  ls
+  273  nano access.log 
+  274  nano apache_logs 
+  275  cd
+  276  cat /var/log/apache2/apache_logs 
+  277  cd
+  278  cat /var/log/apache2/
+  279  cd /var/log/apache2/
+  280  nano apache_logs 
+  281  chmod 777 apache_logs 
+  282  cd
+  283  cd /var/log/apache2/
+  284  sudo chmod 777 apache_logs 
+  285  nano apache_logs 
+  286  rm apache_logs 
+  287  sudo rm apache_logs 
+  288  ls
+  289  sudo touch apache_logs
+  290  nano apache_logs 
+  291  sudo nano apache_logs 
+  292  cat apache_logs 
+  293  cd
+  294  ls
+  295  cd /var/log/apache2/
+  296  cat Hello_World | grep Armenia
+  297  cd
+  298  mc
+  299  sudo apt install mc
+  300  mc
+  301  clear
+  302  cd /var/log/apache2/
+  303  nano access.log 
+  304  nano apache_logs 
+  305  tail -f apache_logs 
+  306  tail  apache_logs 
+  307  cd
+  308  whereis apache_logs
+  309  whereis system log
+  310  cd /var/log
+  311  ls
+  312  cd
+  313  mc
+  314  cd /var/lo
+  315  cd /var/log
+  316  ls
+  317  ls -la
+  318  cat /var/log/syslog 
+  319  cat /var/log/syslog |kernel
+  320  nano syslog 
+  321  cd
+  322  cat /var/log/syslog | "kernel"
+  323  cat /var/log/syslog | "Kernel"
+  324  /var/log/ ls
+  325  /var/log$ ls
+  326  cat /var/log/syslog | "Kern"
+  327  cat /var/log/syslog | "kern"
+  328  cat /var/log/syslog | "kernel"
+  329  cat /var/log/syslog | grep "kernel"
+  330  cd /var/log
+  331  cat syslog 
+  332  cd
+  333  cat /var/log/syslog | grep "kernel"
+  334  grep "kernel" syslog
+  335  grep -C 5 "kernel" syslog
+  336  clear
+  337  nano /var/log/syslog 
+  338  cat /var/log/syslog | grep "kerenel"
+  339  cat /var/log/syslog | grep "kernel"
+  340  sudo touch kernel_info
+  341  ls
+  342  ls -la
+  343  sudo chmod 777 kernel_info
+  344  ls -la
+  345  nano .bash_history
+  346  clear
+  347  tail -n 25 /var/log/apache2/access.log > /var/log/apache2/apache_logs 
+  348  cd /var/log/apache2/
+  349  sudo chmod 777 apache_logs 
+  350  tail -n 25 /var/log/apache2/access.log > /var/log/apache2/apache_logs 
+  351  nano apache_logs 
+  352  cd
+  353  mc
+  354  exit
+  355  mc
+  356  cat .bash_history 
+  357  nano touch bash_history
+  358  sudo tocu bash_history
+  359  sudo touch bash_history
+  360  sudo chmod 777 bash_history 
+  361  tail -n 50 .bash_history > bash_history 
+  362  mc
+  363  exit
+  364  nano .bash_history 
+  365  ls -l
+  366  mc
+  367  ls -la
+  368  sudo touch bash_history
+  369  sudo chmod 777 bash_history 
+  370  tail -n 100 .bash_history > bash_history 
+  371  nano bash_history 
+  372  cat /var/log/syslog | grep "kernel" > kernel_info 
+  373  nano kernel_info 
+  374  exit
+  375  tail -n 200 .bash_history > bash_history 
+  376  exit
+  377  cat .bash_history 
+  378  clear
+  379  ls
+  380  ls -la
+  381  clear
+  382  datee
+  383  date
+  384  apt-get update
+  385  sudo apt-get upadte
+  386  sudo apt-get update
+  387  nano /etc/apt/sources.list
+  388  apt-cache search screen
+  389  apt-cache search tracepath
+  390  clear
+  391  apt-cache search tracepath
+  392  apt-cache search ssh
+  393  clear
+  394  apt-cache search ping
+  395  apt-cache search ping |grep ping
+  396  sudo apt install ping
+  397  apt-cache search huawei
+  398  nano /etc/apt/sources.list
+  399  clear
+  400  sudo apt-get install zip
+  401  sudo mkdir archiveme
+  402  cd /archiven
+  403  cd archiveme/
+  404  touch date
+  405  cd 
+  406  sudo chmod 777 archiveme
+  407  cd archiveme/
+  408  sudo touch date
+  409  print date
+  410  cd
+  411  print date
+  412  date
+  413  date> date
+  414  cate date
+  415  cd archiveme/
+  416  date > date
+  417  date
+  418  sudo chmod 777 date
+  419  date > date
+  420  cat date
+  421  cd
+  422  zip -r archiveme
+  423  zip -r archiveme.zip archive
+  424  zip -r archiveme.zip archiveme
+  425  unzip archiveme.zip
+  426  clear
+  427  tar -xf archiveme.zip
+  428  ls -la
+  429  clear
+  430  pop
+  431  top
+  432  clear
+  433  sleep 60&
+  434  htop
+  435  sleep 100&
+  436  htop
+  437  pgrep sleep
+  438  ps -aux | grep sleep
+  439  pgrep sleep
+  440  sleep 100&
+  441  pgrep sleep
+  442  clear
+  443  service ssh status
+  444  sysctl status ssh
+  445  systemctl status ssh
+  446  status all
+  447  clear
+  448  service -- status-all
+  449  systemctl status all
+  450  service status al
+  451  service status all
+  452  systemctl status all
+  453  man systemctl
+  454  systemctl --type=service
+  455  nano /etc/systemd/system
+  456  cd  /etc/systemd/system/
+  457  sudo touch test.service
+  458  cd ..
+  459  cd 
+  460  sudo su
+  461  exit
+  462  sudo su
+  463  exit
+  464  exit
+  465  sudo su
+  466  exit
+  467  sudo su
+  468  exit
+  469  sudo su
+  470  exit
+  471  sudo su
+  472  sudo si
+  473  sudo su
+  474  exit
+  475  nano .bash_history 
+  476  nano .bash_history 
+  477  sudo su
+  478  nano .bash_history 
+  479  history
+  480  nano bash_history 
+  481  tail -20 .bash_history > bash_history 
+  482  nano bash_history 
+  483  history 
+  484  ls
+  485  ls -ls
+  486  ls -la
+  487  ls -ls
+  488  apt-cache search zabbix
+  489  man shutdown 
+  490  shutdown -P
+  491  exit
+  492  nano .bash_history 
+  493  systemctl status nes
+  494  systemctl status new
+  495  systemctl start new
+  496  sudo su
+  497  exit
+  498  sudo su
+  499  nano/etc/logrotate.conf
+  500  nano /etc/logrotate.conf
+  501  ls /var/log
+  502  include /etc/logrotate.d
+  503  nano /etc/logrotate.d/httpd
+  504  sudo su
+  505  exut
+  506  exit
+  507  sudo su
+  508  exit
+  509  sudo su
+  510  exit
+  511  sudo su
+  512  sudo
+  513  sudo su
+  514  exit
+  515  sudo su
+  516  exit
+  517  sudo su
+  518  exit
+  519  sudo su
+  520  exit
+  521  sudo su
+  522  exit
+  523  sudo su
+  524  exit
+  525  ssh -i newdavit-vm.pem ubuntu@3.144.97.87
+  526  exit
+  527  ssh -i newdavit-vm.pem ubuntu@3.144.97.87
+  528  exit
+  529  ssh -i newdavit-vm.pem ubuntu@3.144.97.87
+  530  exit
+  531  ssh -i newdavit-vm.pem ubuntu@13.59.34.104 
+  532  exit
+  533  ssh -i newdavit-vm.pem ubuntu@3.144.121.78
+  534  ls
+  535  mkdir test-git
+  536  cd test-git/
+  537  ls
+  538  ls -l
+  539  ls -ls
+  540  exit
+  541  sudo su
+  542  exit
+  543  cd
+  544  ls
+  545  sudo su
+  546  ls
+  547  where is test-git
+  548  whereis teset-git
+  549  cd /test-git
+  550  cd /home/davit/
+  551  ls
+  552  sudo su
+  553  exit
+  554  ls
+  555  ssh -i newdavit-vm.pem ubuntu@3.133.157.6
+  556  mkdir test-git
+  557  cd test-git/
+  558  ls
+  559  nano test
+  560  ks
+  561  ls
+  562  nano test
+  563  ls
+  564  cd -
+  565  cd test-git/
+  566  git clonehttps://github.com/arkocharyan/bdg-branch.git
+  567  git clone https://github.com/arkocharyan/bdg-branch.git
+  568  cd bdg-branch/
+  569  ls
+  570  git branch
+  571  nano DavitTadevosyan
+  572  git branch TestDavit
+  573  git branch
+  574  rm DavitTadevosyan 
+  575  exit
+  576  ls
+  577  cd -
+  578  sudo su
+  579  exit
+  580  ls
+  581  cd test-git/
+  582  cd repo/
+  583  git clone https://github.com/DavitTadevosyan/verynew-branch.git
+  584  cd ..
+  585  cd
+  586  sudo su
+  587  ls
+  588  ls -la
+  589  cd test-git/
+  590  ls
+  591  cd repo/
+  592  git clone https://github.com/DavitTadevosyan/verynew-branch.git
+  593  git clone https://github.com/DavitTadevosyan/home-branch.git
+  594  cd bdg-barnch
+  595  ls
+  596  cd ..
+  597  ls
+  598  cd bdg-branch/
+  599  ls
+  600  ls -la
+  601  cd ..
+  602  git clone https://github.com/DavitTadevosyan/home-branch.git
+  603  exit
+  604  ls -la
+  605  cd test-git/
+  606  cd repo/
+  607  git clone https://github.com/DavitTadevosyan/home-branch.git
+  608  nano DavitTadevosyan
+  609  cd
+  610  rm test-git/
+  611  rmdir test-git/
+  612  rmdir -rf test-git
+  613  rmdir --help
+  614  git ini
+  615  git init
+  616  cd test-git/
+  617  cd repo
+  618  git init
+  619  cd ..
+  620  ls -la
+  621  cd home-branch/
+  622  nano DavitTadvosyan
+  623  git add .
+  624  git commit -m "Davit"
+  625  git config --global user.email "you@example.com"
+  626  git config --global user.email "david.tadevosyan86@gmail.com"
+  627  git push
+  628  ls
+  629  exit
+  630  rmdir test-git/
+  631  rm -rf test-git/
+  632  ls
+  633  mkdir test-git
+  634  cd test-git/
+  635  mkdir repo
+  636  nano test1
+  637  cd repo/
+  638  nano test2
+  639  ls
+  640  git init
+  641  git clone https://github.com/DavitTadevosyan/home-branch.git
+  642  cd home-branch/
+  643  nano DavitTadevosyan
+  644  git add ..
+  645  git add .
+  646  git commit -m "Tadevosyan"
+  647  git push
+  648  exit
+  649  ls
+  650  rm -rf test-git/
+  651  ls
+  652  repi
+  653  repo
+  654  ls -ls
+  655  ls -la
+  656  rm test2
+  657  rf -rf test2
+  658  rm -rf test2
+  659  rm -rf .git
+  660  ls
+  661  ls -la
+  662  clear
+  663  mkdir test-git
+  664  mkdir repo
+  665  cd repo/
+  666  cd
+  667  rm -rf test-git/
+  668  rm -rf repo/
+  669  mkdir test-git
+  670  cd test-git/
+  671  mkdir repo
+  672  cd repo
+  673  ls
+  674  git -v
+  675  git --version
+  676  git init
+  677  cd .git/
+  678  ls
+  679  cd ..
+  680  nano test-file
+  681  git status
+  682  git add test-file 
+  683  git status
+  684  git commit -m "testing"
+  685  cd ..
+  686  git clone https://github.com/DavitTadevosyan/home-branch.git
+  687  git log
+  688  git checkout main
+  689  cd home-branch/
+  690  git remote add origin 
+  691  git remote add origin https://github.com/DavitTadevosyan/home-branch.git
+  692  git pull origin master
+  693  cd ..
+  694  cd 
+  695  cd test-git/
+  696  git add --all
+  697  git commit -m 'your commit message'
+  698  git push origin master
+  699  cd repo/
+  700  cd
+  701  reboot
+  702  shoutdown --h
+  703  shoutdown -h
+  704  sudo su
+  705  cd test-git/
+  706  cd repo/
+  707  ls
+  708  git clone https://github.com/DavitTadevosyan/home-branch.git
+  709  git status
+  710  nano test
+  711  git add test
+  712  git push
+  713  cd home-branch/
+  714  nano test
+  715  git add .
+  716  git commit -m "skjfd"
+  717  git push
+  718  git status
+  719  git pull
+  720  ls
+  721  cd
+  722  rm -rf test-git/
+  723  ls
+  724  exit
+  725  ssh -i newdavit-vm.pem ubuntu@18.117.71.188
+  726  mkdir test-git
+  727  cd test-git/
+  728  mkdir repo
+  729  cd repo
+  730  git init
+  731  git clone https://github.com/DavitTadevosyan/home-branch.git
+  732  cd home-branch/
+  733  nano DavitTadevosyan
+  734  git add .
+  735  git commit -m "tadevosyan"
+  736  git push 
+  737  git branch New-David
+  738  history > history1.txt
